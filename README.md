@@ -18,7 +18,7 @@ JavaScript – Interactivity
 ⚡ How to Open the Website
 Run Locally
 1.Clone this repo:
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/gaureshjadhav15-netizen/website-portfolio-
 2.Open the project folder.
 3.Double-click on index.html OR right-click and select Open with Browser.
 
