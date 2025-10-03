@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gauresh Jadhav | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Unique Home Page Styles */
+    #home {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #1abc9c, #16a085);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      animation: fadeIn 2s ease-in-out;
+    }
+    #home h1 {
+      font-size: 3.5rem;
+      margin-bottom: 15px;
+      animation: slideIn 1.5s ease;
+    }
+    #home p {
+      font-size: 1.3rem;
+      margin-bottom: 25px;
+      max-width: 600px;
+    }
+    #home img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      margin: 20px 0;
+      border: 6px solid white;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    }
+    .hero-buttons {
+      margin-top: 20px;
+    }
+    .hero-buttons .btn {
+      margin: 10px;
+    }
+    @keyframes slideIn {
+      from { transform: translateY(-50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="project.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+<br>
+<br>
+<br>   
+ <h1>
+  Hi, I'm <br>
+  <span style="color:#ffdd59;">Gauresh Jadhav</span>
+</h1>
+<img src="image.jpg" alt="Profile Photo">
+    <p>A <b>B.Sc. IT Student</b> and <b>Frontend Developer</b> passionate about creating modern websites & interactive dashboards.</p>
+    <div class="hero-buttons">
+      <!-- Resume Button -->
+      <a href="resumegaureshjadhav.pdf" download class="btn">📄 Download Resume</a>
+      <!-- Projects Button -->
+      <a href="project.html" class="btn">💻 View Projects</a>
+    </div>
+  </section>
+</body>
+</html>
